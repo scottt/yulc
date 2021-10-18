@@ -1,0 +1,23 @@
+{
+  "name": "yulc",
+  "description": "Compile YUL into EVM bytecode by invoking `solc`",
+  "version": "0.0.1",
+  "homepage": "https://github.com/scottt/yulc",
+  "license": "BSD-3-Clause",
+  "bin": {
+    "yulc": "dist/yulc.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "package-json-validator": "^0.6.3"
+  },
+  "devDependencies": {
+    "@types/argparse": "^2.0.10",
+    "@types/node": "^16.0.0",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.3.5"
+  }
+}
